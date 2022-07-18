@@ -1,0 +1,62 @@
+/** These styles are used in your backend editor. **//* Enter Your Custom CSS Here */
+
+
+.content9{
+ background:#c80000;
+  
+}
+.content9:hover{
+ background:#f80000 
+}
+
+
+.parallaxuj{
+
+    background:url(http://barejko.nazwa.pl/headway/shoestrap-headway/wp-content/uploads/2014/07/parallax-tlo.jpg);
+background-attachment:fixed;
+  background-repeat:no-repeat;
+}
+#bgVideo{
+			height:100%;
+			overflow:hidden;
+		}
+		#video_background{
+			width:100%
+		}
+		.video{
+			position:relative;
+		}
+		/*TEKST*/
+		.video-text{
+			color:#fff;
+			position:absolute;
+			top:50%;
+			left:50%;
+			margin-top:-30px; /* Połowa wysokości całego elementu */
+			margin-left:-249px;  /*Połowa szerokości całego elementu */
+		}
+		.video-text span {
+			font-size:24px;
+			padding:0px 15px;
+			font-weight:100;
+		}
+		.video-text .fa-play{
+			position:relative;
+			left:2px;
+		}
+		.video-text a{
+			display:inline-block;
+			border:2px solid #fff;
+			border-radius:100%;
+			line-height:47px;
+			height:50px;
+			width:50px;
+			color:#fff;
+			-webkit-transition:all .3s linear;
+			-moz-transition:all .3s linear;
+			-o-transition:all .3s linear;
+			transition:all .3s linear;
+		}
+		.video-text a:hover{
+			opacity:.6;
+		}
